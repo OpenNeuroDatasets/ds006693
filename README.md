@@ -21,7 +21,7 @@ Each subject may have several MRI sessions; session labels match the original co
 - Top-level: `dataset_description.json`, `participants.tsv`, `participants.json`, `README.md`.
 
 **What’s NOT included (for this release)**  
-- Behavioral/odor-rating/choice logs (to be shared later).  
+- Behavioral/odor-rating/choice logs (to be shared with scripts on Github).  
 - Any processed or derivative data (e.g., realigned/normalized/smoothed images; cVAE outputs).
 
 **Notes on data quality & privacy**  
@@ -41,8 +41,7 @@ nodeap-bids/
 ```
 
 **How to cite**  
-Manuscript: *Distinct contributions of anterior and posterior orbitofrontal cortex to outcome-guided behavior* — **manuscript in press**.  
-(Please cite this manuscript when referring to this dataset.)
+Please cite our paper: Liu et al., 'Distinct contributions of anterior and posterior orbitofrontal cortex to outcome-guided behavior', Current Biology (in press). Add DOI when available.
 
 **Contacts**  
 - Qingfang Liu — psychliuqf@gmail.com  

@@ -34,7 +34,7 @@ sub-32	NODEAP_65	M	26	pOFC	Sweet-Savory-Sweet	CS-SC-SS
 sub-33	NODEAP_66	F	27	aOFC	Sweet-Savory-Sweet	SC-CS-SS
 sub-34	NODEAP_68	F	23	aOFC	Sweet-Savory-Sweet	CS-SS-SC
 sub-35	NODEAP_70	F	25	pOFC	Savory-Sweet-Savory	SS-CS-SC
-sub-36	NODEAP_73	F	26	aOFC	Sweet-Savory-Sweet	CS-SC-SS
+sub-36	NODEAP_73	F	26	pOFC	Sweet-Savory-Sweet	CS-SC-SS
 sub-37	NODEAP_74	M	25	pOFC	Sweet-Savory-Sweet	SS-CS-SC
 sub-38	NODEAP_76	F	25	pOFC	Savory-Sweet-Savory	SC-CS-SS
 sub-39	NODEAP_77	F	26	pOFC	Savory-Sweet-Savory	CS-SS-SC

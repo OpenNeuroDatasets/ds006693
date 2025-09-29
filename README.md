@@ -1,11 +1,18 @@
 # NODEAP: Distinct contributions of anterior and posterior OFC to outcome-guided behavior
 
 **Summary**  
-This dataset contains defaced anatomical T1-weighted MRI and raw multi-echo resting-state fMRI from a study testing differential roles of the anterior (aOFC) and posterior (pOFC) lateral orbitofrontal cortex in outcome-guided (goal-directed) behavior. Participants completed odor-reward learning and outcome devaluation across multiple sessions. Network-targeted TMS was applied to aOFC or pOFC in separate sessions to probe effects on learning vs. value inference.
+This dataset includes defaced anatomical T1-weighted MRI and raw multi-echo resting-state fMRI data from a study investigating the distinct roles of the anterior (aOFC) and posterior (pOFC) lateral orbitofrontal cortex in outcome-guided (goal-directed) behavior.  
+Participants underwent odor–reward learning and outcome devaluation across multiple sessions. To probe causal contributions of OFC subregions, network-targeted TMS was applied to either aOFC or pOFC in separate sessions, and its effects on learning versus inference were assessed.
+
+- For project code, behavioral data, and full analysis pipelines (including preprocessing of multi-echo resting-state fMRI), see:  
+  👉 [project-nodeap-core](https://github.com/QingfangLiu/project-nodeap-core)
+
+- For standalone analyses using functional connectivity derived from this dataset with deep learning methods (e.g., CVAEs), see:  
+  👉 [project-nodeap-fmri-cvae](https://github.com/QingfangLiu/project-nodeap-fmri-cvae)
 
 **Participants**  
-- N = 48 healthy adults.  
-- See `participants.tsv` for sex, age, race, ethnicity, group (aOFC/pOFC), and counterbalancing.
+- N = 48 healthy adults  
+- See `participants.tsv` for sex, age, stimulation group (aOFC vs. pOFC), and counterbalanced TMS and meal orders  
 
 **Sessions / tasks**  
 Each subject may have several MRI sessions; session labels match the original collection schedule:  
@@ -19,10 +26,6 @@ Each subject may have several MRI sessions; session labels match the original co
 - `sub-*/ses-*/func/`  
   - Raw multi-echo BOLD: `sub-XX_ses-YY_task-rest_run-01_echo-{1,2,3}_bold.nii.gz` (+ matching JSON sidecars when available).  
 - Top-level: `dataset_description.json`, `participants.tsv`, `participants.json`, `README.md`.
-
-**What’s NOT included (for this release)**  
-- Behavioral/odor-rating/choice logs (to be shared with scripts on Github).  
-- Any processed or derivative data (e.g., realigned/normalized/smoothed images; cVAE outputs).
 
 **Notes on data quality & privacy**  
 - T1w images were defaced prior to sharing.  
